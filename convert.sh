@@ -24,7 +24,10 @@ ffmpeg -i $1 -vf scale=$dimension -c:v libx264 \
 printf "\n\033[0;48;5;40;97m convert success !!\033[0m\n\n" && \
 exit 0;
 
+# hevc 10bit
+#ffmpeg -i  $i -c:v libx265 -pix_fmt yuv420p10le -c:a copy $2 && \
+#printf "\n\033[0;48;5;40;97m convert success !!\033[0m\n\n" && \
+#exit 0;
+
 printf "\n\033[0;48;5;124;97m convert failure !!\033[0m\n\n" && \
 exit 1;
-
-

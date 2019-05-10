@@ -1,8 +1,11 @@
 # Learn FFMPEG  
 
 ## Ref link
+- [Mac Download Guide](https://trac.ffmpeg.org/wiki/CompilationGuide/macOS)
 - [Document](https://www.ffmpeg.org/ffmpeg.html)
 - [Understanding Rate Control Modes](https://slhck.info/video/2017/03/01/rate-control.html)
+- [X264設定](https://www.nmm-hd.org/d/index.php?title=X264設定)
+- [10bit](https://ffmpeg.zeranoe.com/forum/viewtopic.php?t=5475)
 
 ## Usage
 
